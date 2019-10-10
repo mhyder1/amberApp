@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias":"ajiles91-not-for-me-maybe-for-you",
+    "name": "not-for-me-maybe-for-you",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
